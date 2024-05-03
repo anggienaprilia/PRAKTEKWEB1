@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+  table, th, td {
+    border: 1px solid aquamarine;
+    border-collapse: collapse;
+  }
+  </style>
+  
+  </head>
+  <body>
+  	<!--Header Tabel dengan posisi ditengah kolom-->
+    <h2>Header Tabel</h2>
+    <p>Gunakan elemen TH untuk mendefinisikan header tabel.</p>
+    <table style="width:80%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+    <hr>
+
+	<!--Header tabel dalam susunan vertikal-->
+    <h2>Header Tabel Vertikal</h2>
+    <p>Kolom pertama menjadi header tabel jika Anda menyetel sel tabel pertama di setiap baris tabel ke elemen TH:</p>
+
+    <table style="width:80%">
+      <tr>
+        <th>Firstname</th>
+        <td>Jill</td>
+        <td>Eve</td>
+      </tr>
+      <tr>
+        <th>Lastname</th>
+        <td>Smith</td>
+        <td>Jackson</td>
+      </tr>
+      <tr>
+        <th>Age</th>  
+        <td>50</td>
+        <td>94</td>
+      </tr>
+    </table>
+    <hr>
+	
+    <!--Dua kolom dengan satu tabel header-->
+    <h2>Header yang mencakup dua kolom</h2>
+    <p>Gunakan atribut colspan untuk memiliki rentang header pada beberapa kolom.</p>
+    <table style="width:80%">
+      <tr>
+        <th colspan="2">Name</th>
+        <!--Perintah <colspan=""> mewakili jumlah kolom yang akan direntang-->
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+  </body>
+</html>
+

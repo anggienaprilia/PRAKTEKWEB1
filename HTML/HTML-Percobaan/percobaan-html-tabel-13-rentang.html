@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+  </head>
+  <body>
+  
+  <!--Perintah untuk membuat dua kolom menjadi satu-->
+  <h2>Sel yang mencakup dua kolom</h2>
+  <p>Untuk membuat sel menjangkau lebih dari satu kolom, gunakan atribut colspan.</p>
+    <table style="width:80%">
+      <tr>
+        <th colspan="2">Name</th>
+        <!--Perintah <colspan> digunakanan apabila hendak menyatukan dua atau lebih kolom menjadi satu-->
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>57</td>
+      </tr>
+    </table>
+  <hr>
+  
+  <!--Perintah untuk membuat dua baris menjadi satu-->
+  <h2>Sel yang mencakup dua baris</h2>
+  <p>Untuk membuat rentang sel lebih dari satu baris, gunakan atribut rowpan.</p>
+
+    <table style="width:80%">
+      <tr>
+        <th>Name</th>
+        <td>Jill</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <!--Perintah <rowspan> digunakanan apabila hendak menyatukan dua atau lebih baris menjadi satu-->
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-8745</td>
+      </tr>
+  </table>
+  </body>
+</html>
+

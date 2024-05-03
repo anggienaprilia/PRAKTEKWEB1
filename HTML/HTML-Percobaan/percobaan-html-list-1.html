@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <h2>Daftar HTML Tidak Berurutan</h2>
+    <ul style="list-style-type:disc;">
+	<!--List bentuk bulat penuh-->
+    <!--Daftar tidak berurutan dimulai dengan <ul> tag-->
+    <!--Item daftar akan ditandai dengan poin (lingkaran hitam kecil) secara default-->
+      <li>Coffee</li>
+      <!--Setiap item daftar dimulai dengan <li> tag-->
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>  
+
+    <ul style="list-style-type:circle;">
+      <!--List bentuk bulat dengan tengah kosong seperti donat-->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>  
+    <ul style="list-style-type:square;">
+      <!--List bentuk kotak-->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>  
+    <ul style="list-style-type:none;">
+      <!--List kosong-->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>  
+  <hr>
+    
+  <h2>Daftar Bersarang</h2>
+
+    <ul>
+      <li>Coffee</li>
+      <li>Tea
+        <ul>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ul>
+    
+   <ol>
+      <li>Coffee</li>
+      <li>Tea
+        <ol>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ol>
+      </li>
+      <li>Milk</li>
+   </ol>
+  <hr>
+
+  <h2>Daftar HTML yang Diurutkan</h2>
+
+    <ol>
+    <!--Item daftar akan ditandai dengan poin (lingkaran hitam kecil) secara default-->
+      <li>Coffee</li>
+      <!--Setiap item daftar dimulai dengan <li> tag-->
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol> 
+  
+    <ol type="1">
+    <!--List dengan tipe tertentu yaitu type angka-->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>  
+
+    <ol type="A">
+    <!--List dengan tipe tertentu yaitu type huruf kapital-->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol> 
+
+    <ol type="a">
+    <!--List dengan tipe tertentu yaitu type huruf kecil-->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <ol type="I">
+    <!--List dengan tipe tertentu yaitu type angka romawi besar-->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol> 
+
+    <ol type="i">
+    <!--List dengan tipe tertentu yaitu type angka romawi kecil-->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+  <hr>
+
+  <h2>Daftar Deskripsi</h2>
+    <dl>
+    <!--Tag <dl>mendefinisikan daftar deskripsi-->
+    <!--<dt>tag mendefinisikan istilah (nama)-->
+    <!--<dd> tag menjelaskan setiap istilah-->
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+  <hr>
+  
+  <h2>Memulai (Start) Atribut</h2>
+  <p>Secara default, daftar yang diurutkan akan mulai menghitung dari 1. Gunakan atribut start untuk mulai menghitung dari angka yang ditentukan:</p>
+
+    <ol start="50">
+    <!--Perintah <start> pada list digunakan untuk menentukan nomor list dimulai-->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <ol type="I" start="50">
+    <!--Penggunaan perintah <type> dan <start> digunakan ketika nomor list yang dimulai menggunakan tipe non number-->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+  </body>
+</html>
