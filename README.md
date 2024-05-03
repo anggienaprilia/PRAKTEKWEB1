@@ -102,7 +102,8 @@ Walapun, bagian dari satu elemen yang sama yaitu paragraf "p", dengan adanya pen
 Pada CSS, tidak hanya terdapat properti tentang ukuran, jenis dan warna huruf saja. Ada pula properti yang mengatur mengenai batas (border) yang biasa digunakan untuk membatasi teks dengan sebuah garis. Untuk mengatur batas (border), CSS memiliki properti yakni "border" yang dimana juga memiliki jenis properti lain seperti pengaturan untuk batas dengan ukuran, warna, jenis, dll.
 
 <strong>CSS warna</strong>
-![image](https://github.com/anggienaprilia/PWEB1/assets/168538184/d06ea52f-8114-4496-a4c3-62ea002f914b)
+![image](https://github.com/anggienaprilia/PWEB1/assets/168538184/92ec8dd2-fc31-4413-a051-e69785964cdb)
+
 
 <i>Penjelasan: </i>
 Satu warna dengan tiga, bahkan lima jenis nilai melalui nilai RGB, nilai HEX, nilai HSL, nilai RGBA, dan nilai HSLA.
